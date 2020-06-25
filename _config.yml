@@ -85,7 +85,7 @@ analytics:
 # Site Author
 author:
   name             : "Your Name"
-  avatar           : "/images/bio-pic-2.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "a journey in to a career in Data"
   location         : "London"
   email            :
