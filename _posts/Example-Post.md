@@ -1,3 +1,4 @@
+---
 title: "Example post"
 date: 2020-07-13
 tags: [decision making, reinforcement learning, computational modelling]
