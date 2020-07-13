@@ -85,7 +85,7 @@ analytics:
 # Site Author
 author:
   name             : "Sean Spinney"
-  avatar           : "/images/moi2.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/moi2.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : ""
   location         : "Montreal, QC"
   email            :
