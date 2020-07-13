@@ -5,6 +5,5 @@ header:
   image: "/images/zakim.jpg"
 ---
 
-I'm a senior data scientist who excels at data wrangling, machine learning, exploratory analysis, and data visualizations.
+I'm a graduate student in machine learning at Mila, under the supervision of Irina Rish and Patricia Conrod. My research is mainly focused on reinforcement learning in human decision making, brain development, and neuro-inspired AI.
 
-Etc, etc, etc
