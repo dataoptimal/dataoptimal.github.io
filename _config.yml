@@ -86,7 +86,7 @@ analytics:
 author:
   name             : "Sean Spinney"
   avatar           : "/images/bio-pic-2.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Data Science Portfolio"
+  bio              : "Portfolio"
   location         : "Montreal, QC"
   email            :
   uri              :
