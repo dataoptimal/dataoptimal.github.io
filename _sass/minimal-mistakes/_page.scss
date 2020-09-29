@@ -11,7 +11,7 @@
   padding-right: 1em;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
-  max-width: 300%;
+  max-width: 150%;
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
 
@@ -23,12 +23,12 @@
 .page {
   @include breakpoint($large) {
     float: right;
-    width: calc(300% - #{$right-sidebar-width-narrow});
+    width: calc(200% - #{$right-sidebar-width-narrow});
     padding-right: $right-sidebar-width-narrow;
   }
 
   @include breakpoint($x-large) {
-    width: calc(300% - #{$right-sidebar-width});
+    width: calc(200% - #{$right-sidebar-width});
     padding-right: $right-sidebar-width;
   }
 
