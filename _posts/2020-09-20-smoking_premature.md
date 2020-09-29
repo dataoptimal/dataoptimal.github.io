@@ -19,28 +19,32 @@ Our questions of interest is:
 
 In this report, logistic regression model was made to address the questions of interest. 
 
+
 ## Exploratory Data Analysis 
 
 ### Data
-Before starting the analysis, the variable 'premature' was created based on gestation days: if the gestation is less than 270 days, it is categorized as 1, else 0. Predictors such as race, income bracket, education and whether mothers smoked or not were factored. Age and parity were considered as continuous variable. 
+Before starting the analysis, the variable 'premature' was created based on gestation days: if the gestation is less than 270 days, it is categorized as 1, else 0. Predictors such as race, income bracket, education and whether mothers smoked or not were factored. Height, mother's pre-pregnancy weight, age and parity were considered as continuous variable. 
 
 ### Exploring Data
 The boxplot for parity, age, height and pregnancy weight against the response variable showed that there is not much difference between two groups of mothers with regards to each numeric variable. The median parity value for moms who gave premature birth was similar to that of moms who did not give premature birth. This was same for all other numeric variables; the median value and the overall distribution was similar when comparing mothers who gave premature birth and mothers who did not. 
 
 ```r
+#Parity vs. Pre-term birth
 ggplot(smoke,aes(x=parity, y=premature_fac, fill=parity)) +
   geom_boxplot() + coord_flip() + scale_fill_brewer(palette="Reds") +
   labs(title="Parity vs Gestation", x="Parity",y="Gestation") + theme_classic() + theme(legend.position="none")
 
+#Age vs. Pre-term birth
 ggplot(smoke,aes(x=mage, y=premature_fac, fill=mage)) +
   geom_boxplot() + coord_flip() + scale_fill_brewer(palette="Reds") +
   labs(title="Age vs Gestation", x="Age",y="Gestation") + theme_classic() + theme(legend.position="none")
 
+#Height vs. Pre-term birth
 ggplot(smoke,aes(x=mht, y=premature_fac, fill=mht)) +
   geom_boxplot() + coord_flip() + scale_fill_brewer(palette="Reds") +
   labs(title="Height vs Gestation", x="Height",y="Gestation") + theme_classic() + theme(legend.position="none")
 
-
+#Pre-pregnancy weight vs. Pre-term birth
 ggplot(smoke,aes(x=mpregwt, y=premature_fac, fill=mpregwt)) +
   geom_boxplot() + coord_flip() + scale_fill_brewer(palette="Reds") +
   labs(title="Preg Weight vs Premature", x="Preg Weight",y="Premature") + theme_classic() + theme(legend.position="none")
