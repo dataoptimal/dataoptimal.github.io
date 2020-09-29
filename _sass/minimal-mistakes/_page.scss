@@ -36,7 +36,7 @@
     float: left;
     margin-left: 0;
     margin-right: 0;
-    width: 150%;
+    width: 100%;
     clear: both;
 
     .page__content,
@@ -63,7 +63,7 @@
 
 .page__lead {
   font-family: $global-font-family;
-  font-size: $type-size-3;
+  font-size: $type-size-4;
 }
 
 .page__content {
