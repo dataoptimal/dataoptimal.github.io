@@ -36,7 +36,7 @@
     float: left;
     margin-left: 0;
     margin-right: 0;
-    width: 100%;
+    width: 150%;
     clear: both;
 
     .page__content,
@@ -46,7 +46,7 @@
       float: left;
       margin-left: 0;
       margin-right: 0;
-      width: 100%;
+      width: 150%;
       clear: both;
     }
   }
@@ -110,11 +110,11 @@
   dd {
     margin-left: 1em;
     font-family: $sans-serif;
-    font-size: $type-size-6;
+    font-size: $type-size-4;
   }
 
   .small {
-    font-size: $type-size-6;
+    font-size: $type-size-4;
   }
 
   /* blockquote citations */
