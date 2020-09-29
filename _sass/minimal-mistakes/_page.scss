@@ -11,7 +11,7 @@
   padding-right: 1em;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
-  max-width: 150%;
+  max-width: 300%;
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
 
@@ -23,12 +23,12 @@
 .page {
   @include breakpoint($large) {
     float: right;
-    width: calc(150% - #{$right-sidebar-width-narrow});
+    width: calc(300% - #{$right-sidebar-width-narrow});
     padding-right: $right-sidebar-width-narrow;
   }
 
   @include breakpoint($x-large) {
-    width: calc(150% - #{$right-sidebar-width});
+    width: calc(300% - #{$right-sidebar-width});
     padding-right: $right-sidebar-width;
   }
 
@@ -36,7 +36,7 @@
     float: left;
     margin-left: 0;
     margin-right: 0;
-    width: 150%;
+    width: 200%;
     clear: both;
 
     .page__content,
@@ -46,7 +46,7 @@
       float: left;
       margin-left: 0;
       margin-right: 0;
-      width: 150%;
+      width: 200%;
       clear: both;
     }
   }
