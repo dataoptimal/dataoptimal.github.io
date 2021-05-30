@@ -3,7 +3,7 @@ title: "Project 1: Test"
 date: 2018-01-28
 tags: [data science,]
 header:
-  image: "/images/perceptron/percept.jpg"
+ # image: "/images/perceptron/percept.jpg"
 excerpt: "Data Wrangling, Data Science, Messy Data"
 mathjax: "true"
 ---
