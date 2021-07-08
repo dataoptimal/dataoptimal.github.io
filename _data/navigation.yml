@@ -1,9 +1,7 @@
 # main links
 main:
-  - title: "About"
-    url: /about/
-  - title: "Data Wrangling Projects"
-    url: /data-wrangling/
+  - title: "Automaton_Game"
+    url: /Automaton_Game/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
